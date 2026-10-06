@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>Assistenten-Mailer</title>
+  <meta name="description" content="Technische Informationsseite zum privaten Assistenten-Mailer.">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main>
+  <div class="kicker">Private interne Anwendung</div>
+  <h1>Assistenten-Mailer</h1>
+  <p>Der Assistenten-Mailer ist eine private, nicht öffentlich angebotene Anwendung von Christian Ansink. Er dient ausschließlich dazu, ausdrücklich freigegebene E-Mail-Aufträge aus einem persönlichen Assistenzsystem technisch zuverlässig zu versenden.</p>
+
+  <h2>Funktionsweise</h2>
+  <p>Die Anwendung liest freigegebene Versandaufträge aus einer fest definierten Google-Sheets-Warteschlange. Anschließend erzeugt sie die E-Mail im vorgegebenen Format und übergibt sie über die Gmail API zum Versand. Nach erfolgreicher technischer Übergabe wird der Versandstatus in der Warteschlange aktualisiert.</p>
+
+  <h2>Verwendete Google-Dienste</h2>
+  <ul>
+    <li><strong>Google Sheets API:</strong> Lesen und Aktualisieren der festgelegten Versandwarteschlange.</li>
+    <li><strong>Gmail API:</strong> Versand ausdrücklich freigegebener E-Mails über das autorisierte Google-Konto.</li>
+    <li><strong>Google OAuth:</strong> sichere Autorisierung des einzigen beziehungsweise ausdrücklich autorisierten Nutzers.</li>
+  </ul>
+
+  <p class="note">Die Anwendung ist kein öffentlicher E-Mail-Dienst, bietet keine Registrierung für Dritte an und verarbeitet Google-Daten ausschließlich für den beschriebenen internen Zweck.</p>
+
+  <nav>
+    <a href="/datenschutz/">Datenschutzerklärung</a>
+    &nbsp;·&nbsp;
+    <a href="/nutzungsbedingungen/">Nutzungsbedingungen</a>
+  </nav>
+
+  <footer>
+    <small>Stand: 06.10.2026 · Assistenten-Mailer</small>
+  </footer>
+</main>
+</body>
+</html>
