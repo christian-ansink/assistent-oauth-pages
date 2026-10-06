@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Die Seiten sind öffentlich erreichbar, sollen aber nicht in Suchergebnissen erscheinen.
+# Die eigentliche Noindex-Anweisung steht als Meta-Robots-Angabe in den HTML-Seiten.
